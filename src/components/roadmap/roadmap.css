@@ -1,0 +1,33 @@
+.Roadmap {
+  height: 80vh;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
+
+.roadmapCol1 {
+  background-color: #d4d4d4;
+  height: 70vh;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  flex-direction: column;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  background-color: #e7e7e7;
+  border: none;
+  color: black;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-bottom: 20px;
+  width: 50%;
+}

@@ -1,0 +1,53 @@
+.Navbar {
+  border-bottom: 1px grey solid;
+}
+
+.navbarRow {
+  display: flex;
+}
+
+.navbarCol1 {
+  font-size: 20pt;
+}
+
+.navbarCol2 {
+  font-size: smaller;
+  max-width: 100px !important;
+  margin-top: 20px;
+}
+
+.navbarCol3 {
+  font-size: smaller;
+  max-width: 150px !important;
+  margin-top: 20px;
+}
+
+.navbarCol4 {
+  font-size: smaller;
+  max-width: 100px !important;
+  margin-top: 20px;
+}
+
+.navbarcol5 {
+}
+
+.roadmapButton {
+  font-size: x-small;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.planningBoardButton {
+  font-size: x-small;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+.parkingLotButton {
+  font-size: x-small;
+  border: none;
+  background: transparent;
+  outline: none;
+}

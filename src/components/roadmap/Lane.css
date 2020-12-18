@@ -1,0 +1,35 @@
+.upperRow {
+  width: 100%;
+  height: 5vh;
+  background-color: orange;
+  display: flex;
+  align-items: center;
+}
+
+.lowerRow {
+  width: 100%;
+  background-color: white;
+}
+
+.container {
+  width: 100%;
+  border: solid 1px black;
+}
+
+.button {
+  border: 0ch;
+}
+
+.lane {
+  font-weight: bold;
+  font-size: 14px;
+  align-items: left;
+  margin-left: 8px;
+  color: white;
+}
+
+.iconButton {
+    background-color: Transparent;
+    border: 0;
+    outline: none;
+}

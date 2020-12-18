@@ -1,0 +1,21 @@
+.header {
+  border-bottom: 1px grey solid;
+}
+
+.headerCol1 {
+  overflow: hidden;
+  border-right: 1px grey solid;
+}
+
+.headerCol2 {
+  border-right: 1px solid grey;
+  font-size: small;
+}
+
+.headerCol3 {
+}
+
+.logo {
+  height: 5vh;
+  width: 10vw;
+}
