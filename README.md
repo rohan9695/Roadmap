@@ -1,7 +1,7 @@
 #React Roadmap Application
 #1. Propmt for adding lanes
 
-![promt for adding Lane](Roadmap/src/assets/Screenshots/1.PNG)
+![promt for adding Lane](https://github.com/rohan9695/Roadmap/blob/master/src/assets/Screenshots/1.PNG)
 
 #2.promt for adding bars
 ![promt for adding Bars](Roadmap/src/assets/Screenshots/2.PNG)
