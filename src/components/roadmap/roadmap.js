@@ -26,7 +26,7 @@ class Roadmap extends Component {
         const lanes = []
 
         for (let i = 0; i < this.state.numberOfLanes; i++) {
-            lanes.push(<Lane/>)
+            lanes.push(<Lane />)
         }
 
         return (
@@ -50,32 +50,32 @@ class Roadmap extends Component {
                 </ReactBootstrap.Row>
                 <Modal
                     isOpen={this.state.isAddLaneModal}
-                    onRequestClose={() => this.setState({isAddLaneModal: false})}
+                    onRequestClose={() => this.setState({ isAddLaneModal: false })}
                     contentLabel="Example Modal"
                     style={customStyles}
                 >
-                    <button type="button" class="close" data-dismiss="modal" onClick={() => this.setState({isAddLaneModal: false})}>&times;</button>
-                    <h4 class="modal-title">Modal Header</h4>
+                    <button type="button" class="close" data-dismiss="modal" onClick={() => this.setState({ isAddLaneModal: false })}>&times;</button>
+                    <h4 class="modal-title">Add a Lane</h4>
                     <div class="modal-body">
                         <p>Start with a lane</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal" onClick={()=>this.setState({isAddLaneModal: false})}>Close</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal" onClick={() => this.setState({ isAddLaneModal: false })}>Close</button>
                     </div>
                 </Modal>
                 <Modal
                     isOpen={this.state.isAddBarModal}
-                    onRequestClose={() => this.setState({isAddBarModal: false})}
+                    onRequestClose={() => this.setState({ isAddBarModal: false })}
                     contentLabel="Example Modal"
                     style={customStyles}
                 >
-                    <button type="button" class="close" data-dismiss="modal" onClick={() => this.setState({isAddBarModal: false})}>&times;</button>
+                    <button type="button" class="close" data-dismiss="modal" onClick={() => this.setState({ isAddBarModal: false })}>&times;</button>
                     <h4 class="modal-title">Modal Header</h4>
                     <div class="modal-body">
                         <p>Add few bars</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal" onClick={()=>this.setState({isAddBarModal: false})}>Close</button>
+                        <button type="button" class="btn btn-default" data-dismiss="modal" onClick={() => this.setState({ isAddBarModal: false })}>Close</button>
                     </div>
                 </Modal>
             </div>
